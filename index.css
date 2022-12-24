@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-color: #25282A;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.top-container {
+    /* background-color: #f1f1f1; */
+    padding: 30px;
+    text-align: center;
+    margin-top: 2rem;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form {
+
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0rem;
+}
+
+input {
+    padding: 1rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: inherit;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    min-width: 300px;
+    font-size: 1rem;
+}
+
+input:focus {
+    outline: none;
+}
+
+#main {
+    font-family: "Poppins", sans-serif;
+    /* background-color: #25282A; */
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    /* min-height: 15vh; */
+    flex-direction: column;
+}
+
+.weather {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.weather h2 {
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #f2f2f2;
+    text-align: center;
+}
